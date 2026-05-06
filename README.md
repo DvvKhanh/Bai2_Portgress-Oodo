@@ -95,11 +95,55 @@ docker-compose up -d
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9d0378ba-f730-427c-b1d4-2ba0165300de" />
 
 ## Bước 7: Cài module
-- Đăng nhập vào app
+- Đăng nhập vào Odoo
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ce7cedb9-2227-478a-a04c-5fee2477bae2" />
+
+👉 Giao diện Odoo
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e3b0134b-8048-4c76-abc8-6859a762d4cc" />
 
 - Cài các module:
   + Website → tạo web
   + Sales → bán hàng
   + CRM → khách hàng
   + Inventory → kho
+
+- Cài module Website: Trong Trang web -> nhấn Kích hoạt
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/40555864-9a60-4285-be8b-eddb7aaac8f1" />
+
+- Cài thêm module cần thiết: Bán hàng, CRM, tồn kho
+
+## Bước 8: Tạo website
+- Truy cập: http://192.168.91.154:8069/
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4b7cf9c8-6c36-4a3b-8398-87e3e78be43a" />
+
+- Bật chế độ chỉnh sửa:
+  + Góc trên bên phải, nhấn chỉnh sửa
+
+- Kéo thả nội dung
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fc716e3c-55fa-4562-b333-573885dda68c" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d8084ef8-b229-46b4-a844-2953617e0aaf" />
+
+## Bước 9: Kiểm tra PostgreSQL
+- Vào database:
+```docker exec -it postgres psql -U odoo -d postgres```
+
+- Xem danh sách database:
+```\l```
+<img width="1476" height="407" alt="image" src="https://github.com/user-attachments/assets/1a0a47b2-77ee-4251-ac22-ad35fd559a36" />
+
+- Kết nối vào database
+```\c bai2_portgress-odoo```
+
+- Xem bảng dữ liệu
+```\dt```
+<img width="1478" height="755" alt="image" src="https://github.com/user-attachments/assets/c40a7207-2165-4983-9674-a18f9a9342b5" />
+
+- Xem dữ liệu thật
+👉 Xem khách hàng:
+```SELECT name FROM res_partner LIMIT 5;```
+<img width="787" height="223" alt="image" src="https://github.com/user-attachments/assets/b2eec6c3-0048-4eb4-9615-1931ef040520" />
+
+👉 Xem user:
+```SELECT login FROM res_users;```
+<img width="651" height="269" alt="image" src="https://github.com/user-attachments/assets/5ca313d4-dd51-4796-b41c-a8d9f8ce8bbe" />
