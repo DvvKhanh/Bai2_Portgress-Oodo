@@ -102,25 +102,45 @@ docker-compose up -d
 👉 Giao diện Odoo
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e3b0134b-8048-4c76-abc8-6859a762d4cc" />
 
-- Cài các module:
-  + Website → tạo web
-  + Sales → bán hàng
-  + CRM → khách hàng
-  + Inventory → kho
+- Tiến hành cài đặt các module cần thiết:
+  + Website: dùng để xây dựng giao diện website.
+  + Sales (Bán hàng): quản lý đơn hàng và sản phẩm.
+  + CRM: quản lý thông tin khách hàng.
+  + Inventory (Tồn kho): quản lý hàng hóa trong kho.
 
-- Cài module Website: Trong Trang web -> nhấn Kích hoạt
+- Thực hiện cài module Website: Trong Trang web -> nhấn Kích hoạt
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/40555864-9a60-4285-be8b-eddb7aaac8f1" />
 
-- Cài thêm module cần thiết: Bán hàng, CRM, tồn kho
+- Tương tự cài các module: Bán hàng, CRM, Tồn kho
+
+👉 Sau khi cài đặt, các module sẽ xuất hiện trên thanh menu chính
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b01f3735-d84f-4d30-8351-cb29e3f704d1" />
 
 ## Bước 8: Tạo website
 - Truy cập: http://192.168.91.154:8069/
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4b7cf9c8-6c36-4a3b-8398-87e3e78be43a" />
 
 - Bật chế độ chỉnh sửa:
-  + Góc trên bên phải, nhấn chỉnh sửa
+  + Góc trên bên phải, nhấn nút chỉnh sửa
 
-- Kéo thả nội dung để chỉnh sửa website
+- Tiến hành thiết kế website bằng cách kéo thả:
+  + Thêm banner (Cover).
+  + Thêm văn bản (Text).
+  + Thêm hình ảnh (Image).
+  + Thêm nút bấm (Button).
+
+- Tùy chỉnh nội dung:
+  + Tiêu đề website.
+  + Mô tả.
+  + Hình ảnh minh họa
+
+- Tạo thêm các trang:
+  + Trang chủ (Home).
+  + Giới thiệu (About).
+  + Liên hệ (Contact)
+
+- Lưu lại và kiểm tra hiển thị website
+
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fc716e3c-55fa-4562-b333-573885dda68c" />
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d8084ef8-b229-46b4-a844-2953617e0aaf" />
