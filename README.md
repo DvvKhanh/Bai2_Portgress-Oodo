@@ -120,7 +120,7 @@ docker-compose up -d
 - Bật chế độ chỉnh sửa:
   + Góc trên bên phải, nhấn chỉnh sửa
 
-- Kéo thả nội dung
+- Kéo thả nội dung để chỉnh sửa website
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fc716e3c-55fa-4562-b333-573885dda68c" />
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d8084ef8-b229-46b4-a844-2953617e0aaf" />
