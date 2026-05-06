@@ -114,7 +114,7 @@ docker-compose up -d
 - Tương tự cài các module: Bán hàng, CRM, Tồn kho
 
 👉 Sau khi cài đặt, các module sẽ xuất hiện trên thanh menu chính
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b01f3735-d84f-4d30-8351-cb29e3f704d1" />
+<img width="1915" height="1219" alt="Untitled" src="https://github.com/user-attachments/assets/b4293a75-811e-4ae3-a436-f4d273889bdb" />
 
 ## Bước 8: Tạo website
 - Truy cập: http://192.168.91.154:8069/
