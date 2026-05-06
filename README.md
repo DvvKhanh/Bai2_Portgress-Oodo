@@ -91,6 +91,7 @@ docker-compose up -d
   + Database Name: tùy ý
   + Email: tùy ý
   + Password: tùy ý
+
 👉 Nhấn Create database
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9d0378ba-f730-427c-b1d4-2ba0165300de" />
 
